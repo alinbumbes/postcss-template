@@ -12,4 +12,9 @@
 .bt.bt-primary {
   border-color: var(--accent-color);
   color: var(--accent-color);
+  & :hover {
+    background-color: var(--accent-color);
+    color:#fff;
+  }
 }
+
