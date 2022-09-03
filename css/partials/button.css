@@ -1,0 +1,13 @@
+.btn {
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 9px;
+}
+
+.btn.btn-primary {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+
+}
