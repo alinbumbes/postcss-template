@@ -1,0 +1,28 @@
+/* style.css v0.1 ** partial files from css/partials are imported into css/main.css which is then converted into style.css */
+:root {
+    --theme: 'light';
+    --accent-color: #3c8dcf;
+
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 9px;
+}
+.btn.btn-primary {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+
+}

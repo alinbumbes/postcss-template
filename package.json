@@ -4,7 +4,7 @@
   "description": "has minimal website layout\r has basic project setup \r has css folder structure for components\r has postcss script set up in postcss.config.js + package.json command",
   "main": "postcss.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postcss:watch": "postcss css/main.css -o style.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/alinbumbes/postcss-template/issues"
   },
-  "homepage": "https://github.com/alinbumbes/postcss-template#readme"
+  "homepage": "https://github.com/alinbumbes/postcss-template#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0"
+  }
 }

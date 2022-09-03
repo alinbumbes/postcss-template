@@ -1,4 +1,4 @@
 /* style.css v0.1 ** partial files from css/partials are imported into css/main.css which is then converted into style.css */
-@import 'var.css';
-@import 'base.css';
-@import 'button.css';
+@import 'partials/var.css';
+@import 'partials/base.css';
+@import 'partials/button.css';
