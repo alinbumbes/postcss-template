@@ -3,3 +3,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.weird-calculation {
+  width: calc(var(--a) + var(--b));
+  height: calc(100vh - var(--b));
+  border: 1px solid var(--accent-color);
+  background-color: #ddd;
+}
