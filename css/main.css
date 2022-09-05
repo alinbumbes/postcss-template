@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* v0.1 */
-@import 'partials/var.css';
-@import 'partials/base.css';
-@import 'partials/layout.css';
-@import 'partials/button.css';
+
+/* root variables */
+@import "partials/var.css";
+/* normalize css, basic default styles */
+@import "partials/base.css";
+/* layout */
+@import "partials/layout.css";
+
+/* components 
+    ## buttons */
+@import "partials/button.css";
